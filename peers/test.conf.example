@@ -1,0 +1,5 @@
+# 就是个测试，dnpeers能改成 neopeers，只是对象不同
+
+protocol bgp as0298 from dnpeers {
+        neighbor fe80::298%wg0298 as 4242420298;
+}

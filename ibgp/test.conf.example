@@ -1,0 +1,7 @@
+# 核心 connect 核心使用 peer<核心> - peer<核心>
+# 核心 connect 子端使用 client<核心> - peer<子端>
+# 子端 connect 子端使用 peer<子端> - peer<子端>
+
+protocol bgp rr114514 from ibgp_rr_client {
+        neighbor 172.20.5.65;
+}
